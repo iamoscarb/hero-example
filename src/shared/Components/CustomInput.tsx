@@ -1,9 +1,10 @@
 import { InputGroup, Label, TextField } from "@heroui/react";
+import type { ReactNode } from "react";
 
 interface Props {
     label?: string;
     placeholder?: string;
-    icon?: any;
+    icon?: ReactNode;
 }
 
 export const CustomInput = ({ label, placeholder, icon }: Props) => {
