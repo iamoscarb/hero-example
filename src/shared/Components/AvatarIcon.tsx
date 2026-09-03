@@ -7,7 +7,7 @@ interface Props {
 
 export const AvatarIcon = ({ name, image }: Props) => {
     return (
-        <Avatar size="lg">
+        <Avatar size="md">
             {image ? (
                 <Avatar.Image alt={name || 'icon'} src={image} />
             ) : (
